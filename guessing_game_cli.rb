@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game 
-num = rand(6) +1
+num = rand(1..6) 
 user_num = gets
 if user_num == 'exit'
   puts "Goodbye!"
